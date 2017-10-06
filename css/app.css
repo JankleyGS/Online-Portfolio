@@ -1,0 +1,18 @@
+
+/*selector {property:value;}*/
+nav {border:1px solid black;}
+
+#indexpage .mainnavigation li/*:nth-child(1) */{background-color: #A1FEED;}
+#portfolio .mainnavigation li {background-color: #A1FEED;}
+
+div {
+    width: 100px;
+    height: 100px;
+    background: black;
+    -webkit-transition: width 1.5s; /* For Safari 3.1 to 6.0 */
+    transition: width 1.5s;
+}
+
+div:hover {
+    width: 300px;
+}
