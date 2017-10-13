@@ -1,19 +1,60 @@
 
 /*selector {property:value;}*/
 nav {border:1px solid black;}
+/*COLORS:
+#A1FEED-aqua  #F9058A-fusia*/
 
-#indexpage .mainnavigation li/*:nth-child(1) */{background-color: #A1FEED;}
-#portfolio .mainnavigation li {background-color: #A1FEED;}
+#portfolio .mainnavigation li {background-color:#F9058A ;}
 
+#about .mainnavigation li {background-color: #A1FEED;}
+#indexpage .mainnavigation li {background-color: #A1FEED;}
+/*#logo a {
+	background-image:url('../images/wflogo.png');
+	min-height:0;
+	height:40px;
+}
+* html #logo a {/* IE6 png Support */
+	/*background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../images/wflogo.png", sizingMethod="crop");}*/
+
+/*for portfolio nav*/
+
+ div{
+    width: 100px;
+    height: 100px;
+    background: #F9058A  /*fusia*/;
+		-webkit-transition: width 1.5s;
+    transition: width 1.5s;
+
+}
+
+ div.1:hover {
+    width: 500px;
+
+}
+/*for about nav*/
 div {
     width: 100px;
     height: 100px;
-    background: black;
-    -webkit-transition: width 1.5s; /* For Safari 3.1 to 6.0 */
+    background: #A1FEED;
+    -webkit-transition: width 1.5s;
     transition: width 1.5s;
 }
 
 div:hover {
-    width: 300px;
+    width: 500px;
+		height: 100px;
 }
-/*classwork*/
+
+/*for home nav*/
+/*div {
+    width: 100px;
+    height: 100px;
+    background: #A1FEED;
+    -webkit-transition: width 1.5s;
+    transition: width 1.5s;
+}
+
+div:hover {
+    width: 500px;
+}*/
