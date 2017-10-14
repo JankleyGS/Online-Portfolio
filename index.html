@@ -8,80 +8,53 @@
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
   </head>
-<style>
-body{
-  /*div: grid-padding-x 100px;*/
-background-image:url("images/dark_sam.jpg");
-background-size: 1000px 667px;
-background-repeat:no-repeat;
-background-position: 50px 50px 50px 100px;
-}
-  }</style>
+
   <body>
-    <!--webcam start-->
-    <!-- <center>
-      <video id="vidDisplay" autoplay="true">
-        no video
-      </video>
-    </center>
-    <script type="text/javascript">
-      navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia || navigator.msGetUserMedia || navigator.oGetUserMedia;
 
-      if (navigator.getUserMedia){
-        navigator.getUserMedia ({video: true}, handleVideo, videoError);
-        }
-        function handleVideo(stream){
-          document.querySelector('#vidDisplay').src = window.URL.createObjectURL(stream);
-        }
-        function videoError(e){
-            alert("Oops");
+    <div  id="image" class="grid-container">
+<!--nav START-->
+      <nav id="navigation">
 
-        }
-    </script> -->
-<!--webcam end---->
+      <div class="grid-x grid-margin-x">
 
-<!-- NAV START -->
-
-    <div class="grid-container">
-    <div class="grid-x grid-padding-x grid-padding-y 500px
-    grid-margin-y 500px">
-<style> #portfolio {color:#F9058A;}</style>
-        <div class="large-12 cell">
-
-          <h1 id="#portfolio">Portfolio
-          </h1>
+          <div class="small-6 large-6 cell">
+          </div>
+        <div class="small-6 large-6 cell">
+          <h1><a href="portfolio.html">Portfolio</a></h1>
         </div>
-</div>
-</div>
- <!--closes container-->
-<!-- About nav -->
+      </div>
 
-<div class="grid-container">
 
-<div class="grid-x grid-padding-x grid-padding-y 500px">
-    <div class="small-6 large-6 cell grid-margin-y 500px">
 
-      <h1 id="#about">About
-      </h1>
+  <div class="grid-x grid-margin-x">
+
+      <div class="small-6 large-6 cell">
+      </div>
+    <div class="small-6 large-6 cell">
+      <h1><a href="about.html">About</a></h1>
     </div>
-</div>
-</div>
+  </div>
 
-<!-- home nav -->
-<div class="grid-container">
-  <div class="grid-x grid-padding-x grid-padding-y">
 
-    <div class="small-12 large-12 cell">
-      <h1 >Home
-      </h1>
+    <div class="grid-x grid-margin-x">
+        <div class="small-6 large-6 cell">
+        </div>
+      <div class="small-6 large-6 cell">
+        <h1><a href="form.html">Contact</a></h1>
+      </div>
     </div>
+
+  <!-- <div class="grid-x grid-margin-x">
+      <div class="small-6 large-6 cell">
+      </div>
+    <div class="small-6 large-6 cell">
+      <h1><a href="index.html">Home</a></h1>
+    </div>
+  </div> -->
+
+</nav>
+<!--nav END-->
 </div>
-</div>
-
-
-
-
-
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>

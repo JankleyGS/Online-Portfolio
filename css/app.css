@@ -2,55 +2,121 @@
 /*selector {property:value;}*/
 
 /*COLORS:
-#A1FEED-aqua  #F9058A-fusia  #6AF977-green*/
+#A1FEED-aqua  #F9058A-fusia  #6AF977-green #494847-dark grey  #9c9b9a-grey */
 
-#portfolio .mainnavigation li {background-color:#F9058A ;}
+/*body{
+background-image:url("../images/dark_sam.jpg");
+background-size: cover;
+background-repeat:no-repeat;
 
-h1 {font-family: "Impact", Serif;}
-div{
+}*/
+#image{
+
+	width:1024px;
+	height:682px;
+	background-image:url("../images/dark_sam.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	padding:20px;
+}
+#about{
+
+	width:1024px;
+	height:682px;
+	background-image:url("../images/eggato.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	padding:20px;
+
+}
+#indexpage{
+
+	background-color:#000000;
+	padding:0px;
+}
+#navigation{
+	position:fixed;
+	bottom:20px;
+	right:200px;
+}
+#video{
+position:center;
+top:0px;
+left:0px;
+padding:10px;
+margin:0px;
+width:100%;
+
+}
+
+li{
+
+		font-family: "impact", serif;
+		color:#9c9b9a;
+		padding:10px;
+
+}
+a {
+	color:#9c9b9a;
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */ }
+
+/**
+     * Remove the outline on focused links when they are also active or hovered
+     * in all browsers (opinionated).
+     */
+a:active,
+a:hover {
+	color:#494847;
+  outline-width:0px;
+
+ }
+h1 {
+	font-family: "impact", serif;
+	color:#9c9b9a;
+	padding:10px;
+
+}
+h2 {
+	font-family: "impact", serif;
+	color:#9c9b9a;
+	padding:10px;
+	font-weight: bold;
+	background-color:#494847;
+	padding:10px;
+}
+h4{
+	font-family:"baskerville", serif;
+	color:#494847;
+	padding:5px;
+
+}
+p{
+font-family:"baskerville",sans-serif;
+color:#9c9b9a;
+padding:10px;
+width:450px;
+
+
+}
+
+/*transition*/
+/*div{
 	 width: 40px;
 	 height: 100px;
 	 background: #F9058A  /*fusia*/;
-	 -webkit-transition: width 1.5s;
-	 transition: width 1.5s;
+	 /*-webkit-transition: width 1.5s;
+	 transition: width 1.5s;*/
 
 }
-
+/*
 div:hover {
 	 width: 500px;
 
-}
+}*/
 
-#about li {background-color: #A1FEED;}
-h1 {color:#6AF977;}
-h1 {font-family: "Impact", Serif;}
-div {
-    width: 40px;
-    height: 100px;
-    background: #A1FEED;
-    -webkit-transition: width 1.5s;
-    transition: width 1.5s;
-}
-
-div:hover {
-    width: 500px;
-		height: 100px;
-}
-#indexpage .mainnavigation li {background-color: #A1FEED;}
-h1 {color:#6AF977;}
-h1 {font-family: "Impact", Serif;}
-div {
-    width: 40px;
-    height: 100px;
-    background: #A1FEED;
-    -webkit-transition: width 1.5s;
-    transition: width 1.5s;
-}
-
-div:hover {
-    width: 500px;
-		height: 100px;
-}
 /*#logo a {
 	background-image:url('../images/wflogo.png');
 	min-height:0;

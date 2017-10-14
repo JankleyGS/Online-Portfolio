@@ -4,46 +4,146 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>J. Garcia's Multimedia Portfolio: Homepage</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
   </head>
-  <body id="indexpage">
+<body id="indexpage">
+<!--carousel-->
+    <!-- <div class="container">
+  <h2>Carousel Example</h2>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel"> -->
+    <!-- Indicators -->
+    <!-- <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol> -->
+
+    <!-- Wrapper for slides -->
+    <!-- <div class="carousel-inner">
+
+      <div class="item active">
+        <img src="dark_sam.jpg" alt="DarkSam" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Dark Sam</h3>
+          <p>Dark Sam is one of my favorite photos I have taken so far</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="chicago.jpg" alt="Chicago" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Chicago</h3>
+          <p>Thank you, Chicago!</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="ny.jpg" alt="New York" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>New York</h3>
+          <p>We love the Big Apple!</p>
+        </div>
+      </div>
+
+    </div> -->
+
+    <!-- Left and right controls -->
+    <!-- <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+
     <div class="grid-container">
-      <div class="grid-x grid-padding-x">
+      <div class="grid-x grid-padding-x"> -->
+<!--carousel-->
+<!-- <script>
+$(document).ready(function(){
+    $('.carousel').carousel();
+  });
 
-        <!--begin nav-->
-<nav class="mainnavigation cell small-12"> <!--"small" mobile-->
-<h1>Logo</h1>
-<ul>
-<!--<li>home</li>-->
-<li>about</li>
-<li>portfolio</li>
-</ul>
+</script> -->
+<!--container for imgs---------------->
+<div class="container">
 
-</nav>        <!--end nav-->
+<div class="grid-x grid-margin-x">
+  <div class="small-12 large-12 cell">
+    <div>
 
-<div class="big photo small-12 cell">
-  bigphoto
+    <a><img src="images/buddha_red.jpg"></a>
+    <a><img src="images/buddha_blue.jpg"></a>
+    <a><img src="images/eggato.jpg"></a>
+    <a><img src="images/Collage.jpg"></a>
+    <a><img src="images/dwayne_bird.jpg"></a>
+    <a><img src="images/dark_sam.jpg"></a>
+    <!-- </div>
+    <div class="container">
+
+    <div class="grid-x grid-margin-x">
+      <div class="small-12 large-12 cell"> -->
+
+
+    <a><video id="video"src="video/headline.mov"
+      width="1024px" height="681px"
+      preload controls loop></a>
+    </div>
+  </div>
 </div>
-<div class="big headline small-12 cell">
-  big headline
 </div>
-<div class="testimonial t1 small-6 cell large-6">
-  testimonial t1
-</div>
-<div class="testimonial t2 small-6 cell large-6">
-  testimonial t2
-</div>
-<footer>
-</footer>
-        <div class="large-12 cell">
-          <h1>Welcome to Foundation</h1>
+<!--end container for imgs-------------->
+
+        <!--begin nav-------------------------------------->
+        <nav id="navigation">
+
+        <!-- <div class="grid-x grid-margin-x">
+
+            <div class="small-6 large-6 cell">
+            </div>
+          <div class="small-6 large-6 cell">
+            <h1><a href="portfolio.html">Portfolio</a></h1>
+          </div>
+        </div> -->
+
+
+    <div class="grid-x grid-margin-x">
+
+        <div class="small-6 large-6 cell"></div>
+      <div class="small-6 large-6 cell">
+        <h1><a href="about.html">About</a></h1>
+      </div>
+    </div>
+
+    <div class="grid-x grid-margin-x">
+        <div class="small-6 large-6 cell">
+        </div>
+      <div class="small-6 large-6 cell">
+        <h1><a href="index.html">Home</a></h1>
+      </div>
+    </div>
+
+    <div class="grid-x grid-margin-x">
+        <div class="small-6 large-6 cell">
+        </div>
+      <div class="small-6 large-6 cell">
+        <h1><a href="form.html">Contact</a></h1>
+      </div>
+    </div>
+
+  </nav>
+
         </div>
 
 
       </div>
-    </div> <!--closes container-->
+    <!--closes container-->
 
 
     <script src="js/vendor/jquery.js"></script>
