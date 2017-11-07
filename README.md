@@ -1,2 +1,2 @@
-# Online-Portfolio
+# Portfolio
 This is my online portfolio
