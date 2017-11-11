@@ -4,12 +4,10 @@
 /*COLORS:
 #A1FEED-aqua  #F9058A-fusia  #6AF977-green #494847-dark grey  #9c9b9a-grey */
 
-/*body{
-background-image:url("../images/dark_sam.jpg");
-background-size: cover;
-background-repeat:no-repeat;
-
-}*/
+#greeting{
+	background-color:#494847;
+	color: #ffffff;
+}
 #image{/*landing page img*/
 	background-color:#000000;
 	background-image:url("../images/dark_sam.jpg");
