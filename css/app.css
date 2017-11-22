@@ -9,15 +9,16 @@
 	color: #ffffff;
 }
 #image{/*landing page img*/
-	background-color:#000000;
+	background-color:#ffffff;
 	background-image:url("../images/dark_sam.jpg");
 	background-size:cover;
 	background-repeat:no-repeat;
 	padding:20px;
 }
+
 #about{
 
-	background-color:#000000;
+	background-color:#ffffff;
 	background-image:url("../images/buddha_blue.jpg");
 	background-size:cover;
 	background-repeat:no-repeat;
@@ -35,7 +36,7 @@
 }
 #indexpage{
 
-	background-color:#000000;
+	background-color:#ffffff;
 	padding:0px;
 }
 #navigation{
@@ -44,7 +45,7 @@
 	right:200px;
 }
 #video{
-position:center;
+position:relative;
 top:0px;
 left:0px;
 padding:10px;
@@ -61,7 +62,7 @@ p{
 }
 li{
 
-		font-family: "impact", serif;
+		font-family: 'Josefin Sans', sans-serif;
 		color:#9c9b9a;
 		padding:10px;
 
@@ -84,32 +85,45 @@ a:hover {
 
  }
 h1 {
-	font-family: "impact", serif;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 700;
 	color:#9c9b9a;
 	padding:10px;
 
 }
+
 h2 {
-	font-family: "impact", serif;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 700;
 	color:#9c9b9a;
 	padding:10px;
 	font-weight: bold;
 	background-color:#494847;
 	padding:10px;
 }
+h3{
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 700;
+	color:#9c9b9a;
+	padding:10px;
+	width:450px;
+	margin:0 auto;
+	position:relative;
+}
 h4{
-	font-family:"baskerville", serif;
+	font-family: 'Forum', cursive;
 	color:#494847;
 	padding:5px;
 
 }
 p{
-font-family:"baskerville",sans-serif;
+font-family: 'Forum', cursive;
 color:#9c9b9a;
 background-color:#494847;
 padding:10px;
 width:450px;
-
+margin:0 auto;
+position:relative;
 
 }
 
