@@ -52,7 +52,13 @@ margin:0px;
 width:100%;
 
 }
-
+h3{
+	color:#9c9b9a;
+}
+p{
+	background-color:#9c9b9a;
+	text-align: justify;
+}
 li{
 
 		font-family: "impact", serif;

@@ -7,15 +7,15 @@ var hourNow = today.getHours();
 var greeting;
 //greeting according to time of day
 if(hourNow>18){
-greeting = 'Good Evening';
+greeting = '<h3>Good Evening!</h3>';
 }
 else if(hourNow>12){
-  greeting = 'Good Afternoon';
+  greeting = '<h3>Good Afternoon!</h3>';
 }
 else if(hourNow>0){
-  greeting = 'Good Morning';
+  greeting = '<h3>Good Morning!</h3>';
 }
 else {
-  greeting = 'Welcome';
+  greeting = '<h3>Welcome</h3>';
 }
 document.write(greeting);
