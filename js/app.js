@@ -19,3 +19,4 @@ else {
   greeting = '<h3>Welcome</h3>';
 }
 document.write(greeting);
+ document.getElementById(greeting).style.color = 'blue';

@@ -4,11 +4,10 @@
 /*COLORS:
 #A1FEED-aqua  #F9058A-fusia  #6AF977-green #494847-dark grey  #9c9b9a-grey */
 
-#greeting{
-	background-color:#494847;
-	color: #ffffff;
-}
+
 #image{/*landing page img*/
+	/*width:1024px;
+	height:768px;*/
 	background-color:#ffffff;
 	background-image:url("../images/dark_sam.jpg");
 	background-size:cover;
@@ -34,15 +33,37 @@
 
 
 }
-#indexpage{
 
-	background-color:#ffffff;
-	padding:0px;
+.navigation{
+	border:2px solid red;
+  width:450px;
+  height:400px;
+  margin:0 auto;
+  position:relative;
+
 }
-#navigation{
-	position:fixed;
-	bottom:20px;
-	right:200px;
+#Navportfolio{
+  border:1px solid #9c9b9a;
+  top:340px;
+  left:200px;
+  position:absolute;
+ transition: width .8s;
+}
+#Navportfolio:hover{
+  width: 100px;
+}
+
+#Navcontact{
+  transform:rotate(90deg);
+  position: absolute;
+  top:150px;
+
+}
+#Navabout{
+  transform:rotate(270deg);
+  position:absolute;
+  right:0px;
+  top:150px;
 }
 #video{
 position:relative;
@@ -53,13 +74,7 @@ margin:0px;
 width:100%;
 
 }
-h3{
-	color:#9c9b9a;
-}
-p{
-	background-color:#9c9b9a;
-	text-align: justify;
-}
+
 li{
 
 		font-family: 'Josefin Sans', sans-serif;
@@ -126,6 +141,7 @@ margin:0 auto;
 position:relative;
 
 }
+
 
 /*transition*/
 /*div{
