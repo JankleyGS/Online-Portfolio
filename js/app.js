@@ -1,22 +1,41 @@
-$(document).foundation()
 //////////////greeting script/////////////////
 //new date object//
 var today = new Date();
 //current hr//
 var hourNow = today.getHours();
-var greeting;
+var greeting = document.getElementById("greeting");
+var image = document.getElementById("image");
+var navigation = document.getElementById("navigation");
 //greeting according to time of day
 if(hourNow>18){
 greeting = '<h3>Good Evening!</h3>';
+image.src= "images/dark_sam_web.png";
 }
 else if(hourNow>12){
   greeting = '<h3>Good Afternoon!</h3>';
+  image.src= "images/buddha_blue.png";
 }
 else if(hourNow>0){
   greeting = '<h3>Good Morning!</h3>';
+  image.src= "images/eggato.png";
 }
 else {
-  greeting = '<h3>Welcome</h3>';
+  greeting = '<h3>Welcome!</h3>';
 }
+
 document.write(greeting);
- document.getElementById(greeting).style.color = 'blue';
+window.onscroll = function(){
+
+  var y = window.pageYOffset;
+      var x = window.pageXOffset;
+      console.log(y);
+      console.log(x);
+
+
+  if( y > 1){
+        navigation.style.top = y + "px";
+
+        } else {
+        navigation.style.top = "0px" ;
+        }
+}

@@ -3,16 +3,19 @@
 
 /*COLORS:
 #A1FEED-aqua  #F9058A-fusia  #6AF977-green #494847-dark grey  #9c9b9a-grey */
-
+#body{
+	/*background-color: #000000;*/
+	position:relative;
+	width:768px;
+	height:730px;
+}
 
 #image{/*landing page img*/
-	/*width:1024px;
-	height:768px;*/
-	background-color:#ffffff;
-	background-image:url("../images/dark_sam.jpg");
-	background-size:cover;
-	background-repeat:no-repeat;
-	padding:20px;
+	border:1px solid #9c9b9a;
+	padding:15px;
+position:relative;
+left:300px;
+
 }
 
 #about{
@@ -34,36 +37,46 @@
 
 }
 
-.navigation{
-	border:2px solid red;
-  width:450px;
-  height:400px;
-  margin:0 auto;
-  position:relative;
+#navigation{
+	border:1px solid #9c9b9a;
+  width:200px;
+  height:300px;
+  left:0px;
+	top:0px;
+  position:fixed;
 
+}
+#navigation:hover{
+	border:1px dashed #9c9b9a;
 }
 #Navportfolio{
   border:1px solid #9c9b9a;
-  top:340px;
-  left:200px;
+  top:500px;
+  left:600px;
   position:absolute;
- transition: width .8s;
 }
 #Navportfolio:hover{
-  width: 100px;
+  border: 1px dashed #9c9b9a;
 }
 
 #Navcontact{
+	border:1px solid #9c9b9a;
   transform:rotate(90deg);
   position: absolute;
   top:150px;
-
+}
+#Navcontact:hover{
+  border: 1px dashed #9c9b9a;
 }
 #Navabout{
+	border:1px solid #9c9b9a;
   transform:rotate(270deg);
   position:absolute;
-  right:0px;
+  right:-600px;
   top:150px;
+}
+#Navabout:hover{
+  border: 1px dashed #9c9b9a;
 }
 #video{
 position:relative;
@@ -75,6 +88,7 @@ width:100%;
 
 }
 
+
 li{
 
 		font-family: 'Josefin Sans', sans-serif;
@@ -83,7 +97,7 @@ li{
 
 }
 a {
-	color:#9c9b9a;
+	color:#F4732B;
   background-color: transparent;
   /* 1 */
   -webkit-text-decoration-skip: objects;
@@ -95,8 +109,7 @@ a {
      */
 a:active,
 a:hover {
-	color:#494847;
-  outline-width:0px;
+	color:#D25007;
 
  }
 h1 {
