@@ -1,31 +1,29 @@
-
-/*selector {property:value;}*/
-
-/*COLORS:
-#A1FEED-aqua  #F9058A-fusia  #6AF977-green #494847-dark grey  #9c9b9a-grey */
+/*COLORS: #494847-dark grey  #9c9b9a-grey #093DA4-blue #3D6CC9-lightBlue
+#D40056-pink #E8347D-lightPink #7BE000-lime #9DF136-lightLime #F6A100-yellow
+#FFBB39-lightYellow*/
 #body{
-	/*background-color: #000000;*/
 	position:relative;
 	width:768px;
-	height:730px;
+	height:500px;
 }
-
 #image{/*landing page img*/
 	border:1px solid #9c9b9a;
 	padding:15px;
 position:relative;
-left:300px;
-
+top:0px;
+text-align: center;
+z-index:-1;
 }
-
+#portfolio{
+	background-image: url("../images/logo_webWhite.png");
+	background-repeat:space;
+}
 #about{
-
 	background-color:#ffffff;
 	background-image:url("../images/buddha_blue.jpg");
 	background-size:cover;
 	background-repeat:no-repeat;
 	padding:20px;
-
 }
 #form{
 	background-color:#494847;
@@ -33,85 +31,106 @@ left:300px;
 	background-size:cover;
 	background-repeat:no-repeat;
 	padding:20px;
-
-
+}
+#headings{
+	padding:10px;
+}
+#landingPage{
+	background-color: #ffffff;
 }
 
+#landHome{
+background-color:#7BE000;
+transition: background-color, color .5s;
+}
+#landHome:hover{
+	background-color:#D40056;
+}
+#landPortfolio{
+background-color:#F6A100;
+}
+#landPortfolio:hover{
+	background-color:#093DA4;
+}
+#landAbout{
+	background-color:#D40056;
+}
+#landAbout:hover{
+	background-color:#7BE000;
+}
+#landContact{
+	background-color:#093DA4;
+}
+#landContact:hover{
+background-color:#F6A100;
+}
 #navigation{
 	border:1px solid #9c9b9a;
+	background-color: #494847;
+	opacity: .5;
   width:200px;
   height:300px;
-  left:0px;
+  right:0px;
 	top:0px;
   position:fixed;
-
+	padding: 0px;
+	z-index: 1;
 }
 #navigation:hover{
 	border:1px dashed #9c9b9a;
+	opacity: .7;
+}
+#Navlogo{
+	width:100px;
+	height:100px;
+	position:absolute;
+	top:5px;
+	left:50px;
+}
+#Navhome{
+	color:#F6A100;
+	position:absolute;
+  top:70px;
+  left:0px;
 }
 #Navportfolio{
-  border:1px solid #9c9b9a;
-  top:500px;
-  left:600px;
-  position:absolute;
-}
-#Navportfolio:hover{
-  border: 1px dashed #9c9b9a;
+	color:#F6A100;
+	position:absolute;
+  top:120px;
+  left:0px;
 }
 
 #Navcontact{
-	border:1px solid #9c9b9a;
-  transform:rotate(90deg);
+	color:#F6A100;
   position: absolute;
-  top:150px;
+  top:170px;
+	left:0px;
 }
-#Navcontact:hover{
-  border: 1px dashed #9c9b9a;
-}
+
 #Navabout{
-	border:1px solid #9c9b9a;
-  transform:rotate(270deg);
+	color:#F6A100;
   position:absolute;
-  right:-600px;
-  top:150px;
+  top:220px;
+	left:0px;
 }
-#Navabout:hover{
-  border: 1px dashed #9c9b9a;
+#Navhome,#Navabout,#Navcontact,#Navportfolio:hover{
+	color:#9c9b9a;
 }
+
 #video{
-position:relative;
-top:0px;
-left:0px;
-padding:10px;
-margin:0px;
-width:100%;
-
+	position:relative;
+	top:0px;
+	left:0px;
+	padding:10px;
+	margin:0px;
+	width:100%;
 }
-
-
 li{
-
-		font-family: 'Josefin Sans', sans-serif;
-		color:#9c9b9a;
-		padding:10px;
-
+	font-family: 'Josefin Sans', sans-serif;
+	color:#9c9b9a;
+	padding:10px;
 }
-a {
-	color:#F4732B;
-  background-color: transparent;
-  /* 1 */
-  -webkit-text-decoration-skip: objects;
-  /* 2 */ }
 
-/**
-     * Remove the outline on focused links when they are also active or hovered
-     * in all browsers (opinionated).
-     */
-a:active,
-a:hover {
-	color:#D25007;
-
- }
 h1 {
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 700;
@@ -123,16 +142,14 @@ h1 {
 h2 {
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 700;
-	color:#9c9b9a;
-	padding:10px;
+	color:#D40056;
 	font-weight: bold;
-	background-color:#494847;
-	padding:10px;
+	background-color:#7BE000;
 }
 h3{
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Forum', cursive;
 	font-weight: 700;
-	color:#9c9b9a;
+	color:#D40056;
 	padding:10px;
 	width:450px;
 	margin:0 auto;
@@ -145,37 +162,18 @@ h4{
 
 }
 p{
-font-family: 'Forum', cursive;
-color:#9c9b9a;
-background-color:#494847;
-padding:10px;
-width:450px;
-margin:0 auto;
-position:relative;
-
+	font-family: 'Forum', cursive;
+	color:#ffffff;
+	background-color:#9c9b9a;
+	padding:10px;
+	width:450px;
+	margin:0 auto;
+	position:relative;
+	opacity:.7;
 }
-
-
-/*transition*/
-/*div{
-	 width: 40px;
-	 height: 100px;
-	 background: #F9058A  /*fusia*/;
-	 /*-webkit-transition: width 1.5s;
-	 transition: width 1.5s;*/
-
+a{
+	color:#ffffff;
 }
-/*
-div:hover {
-	 width: 500px;
-
-}*/
-
-/*#logo a {
-	background-image:url('../images/wflogo.png');
-	min-height:0;
-	height:40px;
+a:hover{
+	color:#9c9b9a;
 }
-* html #logo a {/* IE6 png Support */
-	/*background-image: none;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../images/wflogo.png", sizingMethod="crop");}*/
