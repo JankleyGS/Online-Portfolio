@@ -14,6 +14,36 @@ top:0px;
 text-align: center;
 z-index:-1;
 }
+#greeting{
+  transform:translate(0px, 10px);
+  color:#494847;
+  text-align: center;
+  -webkit-animation:drop 2s , fadeIn 2s;
+  animation:drop 2s , fade 2s;
+/*this places the element 200px up from the default x-y axis*/
+}
+@keyframes drop{
+ 1% { transform:translate(0px, 400px);}
+
+ 100% { transform:translate(0px, 10px);}
+ /*this moves the element 200px down; back to it's default position*/
+}
+@-webkit-keyframes drop{
+ 1% { transform:translate(0px, 400px);}
+
+ 100% { transform:translate(0px, 10px);}
+}
+@keyframes fade{
+  0%{opacity:0;}
+  50%{opacity:.5;}
+  100%{opacity:1;}
+ /*this fades in the title as its dropping down*/
+}
+@-webkit-keyframes fade{
+  0%{opacity:0;}
+  50%{opacity:.5;}
+  100%{opacity:1;}
+}
 #portfolio{
 	background-image: url("../images/logo_webWhite.png");
 	background-repeat:space;
@@ -36,7 +66,8 @@ z-index:-1;
 	padding:10px;
 }
 #landingPage{
-	background-color: #ffffff;
+	background-image: url("../images/logo_webWhite.png");
+	background-repeat:space;
 }
 
 #landHome{
