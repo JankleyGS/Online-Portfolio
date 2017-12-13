@@ -18,7 +18,7 @@ image.src = 'images/dark_sam_web.png';
 else if(hourNow>12){
   greeting.innerHTML = 'Good Afternoon!';
   greeting.style.color = '#093DA4';
-  image.src = 'images/buddha_blue.png';
+  image.src = 'images/buddha_blue_web.jpg';
 }
 else if(hourNow>0){
   greeting.innerHTML = 'Good Morning!';

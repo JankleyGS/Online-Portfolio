@@ -194,8 +194,9 @@ h4{
 }
 p{
 	font-family: 'Forum', cursive;
+	font-size: 21px;
 	color:#ffffff;
-	background-color:#9c9b9a;
+	background-color:#000000;
 	padding:10px;
 	width:450px;
 	margin:0 auto;
