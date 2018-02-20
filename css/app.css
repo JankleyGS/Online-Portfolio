@@ -144,9 +144,9 @@ background-color:#F6A100;
   top:220px;
 	left:0px;
 }
-#Navhome,#Navabout,#Navcontact,#Navportfolio:hover{
+/* #Navhome,#Navabout,#Navcontact,#Navportfolio:hover{
 	color:#9c9b9a;
-}
+} */
 
 #video{
 	position:relative;
@@ -165,7 +165,7 @@ li{
 h1 {
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 700;
-	color:#9c9b9a;
+	color:#ffffff;
 	padding:10px;
 
 }
@@ -178,13 +178,10 @@ h2 {
 	background-color:#7BE000;
 }
 h3{
-	font-family: 'Forum', cursive;
-	font-weight: 700;
-	color:#D40056;
-	padding:10px;
-	width:450px;
-	margin:0 auto;
-	position:relative;
+font-family: 'Julius Sans One', sans-serif;
+	color:#ffffff;
+	padding:5px;
+
 }
 h4{
 	font-family: 'Forum', cursive;
@@ -212,3 +209,7 @@ a:hover{
 
 /*
 seniorProject CSS */
+#triplicata{
+	height:2000px;
+	background-color:#000000;
+}
