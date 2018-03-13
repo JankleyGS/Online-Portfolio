@@ -195,7 +195,7 @@ p{
 	color:#ffffff;
 	background-color:#000000;
 	padding:10px;
-	width:450px;
+	/* width:450px; */
 	margin:0 auto;
 	position:relative;
 	opacity:.7;
@@ -205,11 +205,4 @@ a{
 }
 a:hover{
 	color:#9c9b9a;
-}
-
-/*
-seniorProject CSS */
-#triplicata{
-	height:2000px;
-	background-color:#ffffff;
 }

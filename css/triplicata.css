@@ -1,0 +1,58 @@
+/*
+seniorProject CSS */
+
+li{
+	font-family: 'Josefin Sans', sans-serif;
+	color:#9c9b9a;
+	padding:10px;
+}
+
+h1 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 700;
+	color:#000000;
+	padding:10px;
+
+}
+
+h2 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 700;
+	color:#D40056;
+	font-weight: bold;
+	background-color:#7BE000;
+}
+h3{
+font-family: 'Julius Sans One', sans-serif;
+	color:#D40056;
+	padding:5px;
+	text-align: center;
+}
+h4{
+	font-family: 'Forum', cursive;
+	color:#494847;
+	padding:5px;
+
+}
+p{
+	font-family: 'Forum', cursive;
+	
+	color:#000000;
+	/* background-color:#000000; */
+	padding:10px;
+	/* width:450px; */
+	margin:0 auto;
+	position:relative;
+	opacity:.7;
+}
+a{
+	color:#ffffff;
+}
+a:hover{
+	color:#9c9b9a;
+}
+
+#triplicata{
+	height:2000px;
+	background-color:#ffffff;
+}
