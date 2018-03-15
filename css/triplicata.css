@@ -8,41 +8,55 @@ html, body{
 
 .nav{
   border-bottom:1px solid #eaeaeb;
-  text-align:right;
+  background-color:#F8F9F9;
+  /* background-image:url("../images/mohanX.png"); */
+
   height:70px;
   line-height:70px;
+
 }
 .menu{
-  margin:0 30px 0 0;
+  margin:10px 0px ;
+  z-index:10;
+  text-align: center;
 }
 .menu a {
-  text-decoration: none;
-  color:gray;
-  margin:0 10px;
-  line-height: 70px;
+  clear:right;
+  text-decoration:none;
+  margin:0;
+  line-height: 30px;
 }
+/*
 span{
-  color:#54d17a;
+  color:#D40056;
 }
 label{
   margin: 0 40px 0 0;
   font-size:26px;
-  line-height: 70px;
+  line-height: 30px;
   display:none;
+  width: 26px;
+  float: right;
 }
 #toggle{
   display:none;
 }
+#sculpture{
+  text-align:center;
+} */
 
-@media only screen and (max-width:500px){
   /* everything inside will apply to html when 500px or lesss */
+/* @media only screen and (max-width:500px){
   label{
     display:block;
     cursor:pointer;
   }
-
+.image{
+  width:100%;
+  height:100%;
+}
   .menu{
-  text-align: center;
+  text-align:center;
   width:100%;
   display:none;
   }
@@ -50,12 +64,11 @@ label{
     display:block;
     border-bottom: 1px solid #eaeaeb;
     margin:0;
-
   }
-  #toggle: checked + .menu {
+#toggle:checked + .menu {
     display:block;
   }
-}
+} */
 
 li{
 	font-family: 'Josefin Sans', sans-serif;
@@ -68,6 +81,7 @@ h1 {
   color:#000000;
 	padding:5px;
 	text-align: center;
+  z-index: 1;
 }
 
 h2 {
@@ -84,23 +98,16 @@ h3{
 	padding:5px;
 	text-align: center;
 }
-h4{
-	font-family: 'Forum', cursive;
-	color:#494847;
-	padding:5px;
-}
 p{
   font-family: 'Montserrat', sans-serif;
 	color:#000000;
-	/* background-color:#000000; */
 	padding:10px;
-	/* width:450px; */
 	margin:0 auto;
 	position:relative;
-	opacity:.7;
 }
 a{
 	color:#000000;
+  font-family: 'Montserrat', sans-serif;
 }
 a:hover{
 	color:#9c9b9a;
@@ -109,4 +116,7 @@ a:hover{
 #triplicata{
 	/* height:2000px; */
 	background-color:#ffffff;
+}
+#sculpture{
+
 }
