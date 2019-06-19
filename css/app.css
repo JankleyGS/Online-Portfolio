@@ -16,7 +16,7 @@ z-index:-1;
 }
 #greeting{
   transform:translate(0px, 10px);
-  color:#494847;
+  color:#000000;
   text-align: center;
   -webkit-animation:drop 2s , fadeIn 2s;
   animation:drop 2s , fade 2s;
@@ -45,57 +45,54 @@ z-index:-1;
   100%{opacity:1;}
 }
 #portfolio{
-	background-image: url("../images/logo_webWhite.png");
-	background-repeat:space;
+	background-color:#ffffff;
 }
 #about{
 	background-color:#ffffff;
-	background-image:url("../images/buddha_blue.jpg");
-	background-size:cover;
-	background-repeat:no-repeat;
-	padding:20px;
+}
+#me{
+	border:none;
+padding:15px;
+position:relative;
+top:0px;
 }
 #form{
-	background-color:#494847;
-	background-image:url("../images/eggato.jpg");
-	background-size:cover;
-	background-repeat:no-repeat;
-	padding:20px;
+	background-color:#ffffff;
+
 }
 #headings{
 	padding:10px;
 }
 #landingPage{
-	background-image: url("../images/logo_webWhite.png");
-	background-repeat:space;
+	background-color:#ffffff;
 }
 
 #landHome{
-background-color:#7BE000;
-transition: background-color, color .5s;
+background-color:#43f9b0;
 }
 #landHome:hover{
-	background-color:#D40056;
+	background-color:#93ffd4;
+	transition: color .3s;
 }
 #landPortfolio{
-background-color:#F6A100;
+background-color:#43f9b0;
 }
 #landPortfolio:hover{
-	background-color:#093DA4;
+	background-color:#93ffd4;
 }
 #landAbout{
-	background-color:#D40056;
+	background-color:#43f9b0;
 }
 #landAbout:hover{
-	background-color:#7BE000;
+	background-color:#93ffd4;
 }
 #landContact{
-	background-color:#093DA4;
+	background-color:#43f9b0;
 }
 #landContact:hover{
-background-color:#F6A100;
+background-color:#93ffd4;
 }
-#navigation{
+/* #navigation{
 	border:1px solid #9c9b9a;
 	background-color: #494847;
 	opacity: .5;
@@ -106,8 +103,78 @@ background-color:#F6A100;
   position:fixed;
 	padding: 0px;
 	z-index: 1;
+} */
+#myTopnav{
+	width: 100%;
+	height:67px;
 }
-#navigation:hover{
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #93ffd4;
+    opacity: .7;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+/* Float the list items side by side */
+ul.topnav li {float: right;
+}
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 12px;
+
+}
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {background-color: #43f9b0 ;
+
+}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {display: none;}
+
+/* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
+@media screen and (max-width:680px) {
+  ul.topnav li {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: fixed;
+    right: 0;
+    top: 0;
+    opacity: .7;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: right;
+  }
+}
+
+  /* END OF NAV STYLING */
+
+/* #navigation:hover{
 	border:1px dashed #9c9b9a;
 	opacity: .7;
 }
@@ -143,7 +210,7 @@ background-color:#F6A100;
   position:absolute;
   top:220px;
 	left:0px;
-}
+} */
 /* #Navhome,#Navabout,#Navcontact,#Navportfolio:hover{
 	color:#9c9b9a;
 } */
@@ -192,8 +259,7 @@ h4{
 p{
 	font-family: 'Forum', cursive;
 	font-size: 21px;
-	color:#ffffff;
-	background-color:#000000;
+	color:#000000;
 	padding:10px;
 	/* width:450px; */
 	margin:0 auto;

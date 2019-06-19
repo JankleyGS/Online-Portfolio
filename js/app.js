@@ -31,7 +31,14 @@ else {
   image.src = 'images/dwayne_bird_web.png';
 }
 
-
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
 // window.onscroll = function(){
 //
 //   var y = window.pageYOffset;
