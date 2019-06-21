@@ -245,8 +245,9 @@ h1 {
 h2 {
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 700;
-	color:#000000;
+	color:black;
 	font-weight: bold;
+	text-align: center;
 }
 h3{
 font-family: 'Julius Sans One', sans-serif;
@@ -271,8 +272,8 @@ p{
 	opacity:.7;
 }
 a{
-	color:#ffffff;
+	color:#000000;
 }
 a:hover{
-	color:#9c9b9a;
+	color:#43f9b0;
 }
