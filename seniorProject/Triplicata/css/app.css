@@ -1,0 +1,313 @@
+
+#background{
+  /*border:2px solid #000000;*/
+  width:768px;
+  height:10000px;
+  margin:0 auto;
+  position:relative;
+  background-image:url("../images/paper.png");
+}
+#about{
+  width:768px;
+  height:700px;
+  margin:0 auto;
+  position:relative;
+  background-image:url("../images/paper.png");
+}
+#nav{
+  width:90px;
+  height:70px;
+  padding:10px;
+  left:70px;
+  background-color: #7888BC;
+  z-index:11;
+  position:fixed;
+  color:#ffffff;
+  font-family: 'Josefin Slab', serif;
+}
+#nav:hover{
+  color:#000000;
+}
+#title{
+  position:relative;
+  margin:0 auto;
+  top:50px;
+  color:#7888BC;
+  text-align: center;
+  font-family: 'Josefin Slab', serif;
+}
+p{
+  padding:10px;
+  position:relative;
+  top: 100px;
+  color:#000928;
+  font-family: 'Sorts Mill Goudy', serif;
+}
+#heading{
+width:768px;
+height:500px;
+position:absolute;
+z-index:10;
+}
+
+
+/*trippingRin..runs across screen*/
+#trippingRin{
+  width:170px;
+  height:170px;
+  position:absolute;
+  z-index:3;
+  top:820px;
+  left:0px;
+}
+/*frog mom*/
+#mom{
+transform:scaleX(-1);
+width:130px;
+height:190px;
+position:absolute;
+z-index:2;
+top:790px;
+left:200px;
+
+}
+/*mushroom house*/
+#shroom{
+  width:250px;
+  height:300px;
+position:absolute;
+z-index:3;
+top:700px;
+left:0px;
+}
+/*parallaxing mouse*/
+#greetMouse{
+  width:130px;
+  height:190px;
+  position:absolute;
+  left:500px;
+  top:1800px;
+  z-index:3;
+}
+/*props behind mouse*/
+#grassMouse{
+  width:100px;
+  height:180px;
+  position:absolute;
+  left:425px;
+  top:1285px;
+  z-index:2;
+}
+#rockMouse{
+  position:absolute;
+  width:90px;
+  height:70px;
+  left:400px;
+  top:1400px;
+  z-index:1;
+}
+#greetRin{
+  width:300px;
+  height:390px;
+  position:absolute;
+  left:100px;
+  top:2700px;
+  z-index:4;
+}
+#icon {
+  transform:scaleX(-1);
+  width:568px;
+  height:300px;
+  position:absolute;
+   top:2400px;
+   left:100px;
+}
+
+#waving{
+  width:500px;
+  height:450px;
+  position:absolute;
+  top:3000px;
+  z-index:3;
+}
+#inside{
+  transform:scaleX(-1);
+  width:750px;
+height:580px;
+position:absolute;
+top:4000px;
+z-index:5;
+}
+#grass{
+  width:200px;
+  height:300px;
+  position:absolute;
+  top:4100px;
+  left:550px;
+  z-index:3;
+}
+#rock{
+  transform:scaleX(-1);
+width:200px;
+height:130px;
+position:absolute;
+top:4300px;
+left:570px;
+z-index:4
+
+}
+#stickyCat{
+  width:690px;
+  height:500px;
+  position:absolute;
+  top:4000px;
+  z-index:2;
+}
+
+#shocked{
+  width:300px;
+  height:500px;
+  position:absolute;
+  left:100px;
+  top:5400px;
+  z-index:3;
+}
+
+/*background props behind escaping rin */
+#grass2{
+  width:250px;
+  height:250px;
+  position:absolute;
+  left:300px;
+top:6450px;
+  z-index:3;
+}
+#grass3{
+    transform:scaleX(-1);
+  width:250px;
+  height:350px;
+  position:absolute;
+  left:400px;
+  top:6360px;
+  z-index:2;
+}
+#rock2{
+  width:250px;
+  height:160px;
+  position:absolute;
+  left:350px;
+top:6550px;
+  z-index:2;
+}
+#rock3{
+    transform:scaleX(-1);
+  width:350px;
+  height:200px;
+  position:absolute;
+  left:100px;
+top:6700px;
+  z-index:4;
+}
+#plant{
+  width:280px;
+  height:500px;
+  position:absolute;
+  left:0px;
+top:6210px;
+z-index:2;
+}
+
+/*////////////////////*rin escaping the cat*/
+/*//////////1st tile*/
+#escape{
+  width:300px;
+  height:300px;
+  position:absolute;
+  left:-2000px;
+  top:6500px;
+  z-index:3;
+}
+/*///////////2nd tile*/
+#escape2{
+  transform:scaleX(-1);
+  width:300px;
+  height:300px;
+  position:absolute;
+  left:-2000px;
+  top:7500px;
+  z-index:5;
+}
+#escapeBackground{
+  width:300px;
+  height:150px;
+  left:100px;
+  position:absolute;
+  top:7500px;
+  z-index:1;
+}
+#grass4{
+  width:150px;
+  height:200px;
+  position:absolute;
+  top:7500px;
+  z-index:2;
+  left:50px;
+}
+#plant2{
+  width:150px;
+  height:300px;
+  left:0px;
+  position:absolute;
+  top:7410px;
+  z-index:3;
+}
+/*grass on far right*/
+#grass5{
+  width:100px;
+  height:150px;
+  left:500px;
+  position:absolute;
+  top:7500px;
+  z-index:2;
+}
+
+#rock4{
+  width:150px;
+  height:100px;
+  left:400px;
+  position:absolute;
+  top:7600px;
+  z-index:3;
+}
+
+/*duck eats Rinrin*/
+#stickyRin{
+  width:200px;
+  height:300px;
+  position:absolute;
+  top:8300px;
+  left:200px;
+  z-index:2;
+}
+#duck{
+  width:700px;
+  height:700px;
+  position:absolute;
+  top:8800px;
+  z-index:3;
+}
+#beak{
+  width:540px;
+  height:310px;
+  position:absolute;
+  top:8880px;
+  left:200px;
+  z-index:1;
+}
+#end{
+  width:768px;
+  height:500px;
+  position:absolute;
+  top:9700px;
+  z-index:10;
+}
