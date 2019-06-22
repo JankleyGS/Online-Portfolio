@@ -8,17 +8,46 @@
 }
 #image{/*landing page img*/
 	border:1px solid #9c9b9a;
-	padding:15px;
-position:relative;
+	padding:5px;
+position:absolute;
 top:0px;
 text-align: center;
 z-index:-1;
 }
 
-#myTopnav{
-	width: 100%;
-	height:67px;
+#greeting{
+  transform:translate(0px, 200px);
+  color:#000000;
+  text-align: center;
+  -webkit-animation:drop 2s , fadeIn 2s;
+  animation:drop 2s , fade 2s;
+/*this places the element 200px up from the default x-y axis*/
+	z-index:6;
 }
+@keyframes drop{
+ 1% { transform:translate(0px, 5px);}
+
+ 100% { transform:translate(0px, 200px);}
+ /*this moves the element 200px down; back to it's default position*/
+}
+@-webkit-keyframes drop{
+ 1% { transform:translate(0px, 5px);}
+
+ 100% { transform:translate(0px, 200px);}
+}
+@keyframes fade{
+  0%{opacity:0;}
+  50%{opacity:.5;}
+  100%{opacity:.7;}
+ /*this fades in the title as its dropping down*/
+}
+@-webkit-keyframes fade{
+  0%{opacity:0;}
+  50%{opacity:.5;}
+  100%{opacity:.7;}
+}
+
+
 ul.topnav {
     list-style-type: none;
     margin: 0;
@@ -28,7 +57,7 @@ ul.topnav {
     opacity: .7;
     position: fixed;
     width: 100%;
-    z-index: 5;
+    z-index: 10;
 }
 
 /* Float the list items side by side */
@@ -38,9 +67,9 @@ ul.topnav li {float: right;
 /* Style the links inside the list items */
 ul.topnav li a {
     display: inline-block;
-    color: black;
+    color: #000000;
     text-align: center;
-    padding: 14px 16px;
+    padding: 16px 16px;
     text-decoration: none;
     transition: 0.3s;
     font-size: 16px;
@@ -83,37 +112,7 @@ ul.topnav li.icon {display: none;}
   }
 }
 
-#greeting{
-  transform:translate(0px, 200px);
-  color:#000000;
-  text-align: center;
-  -webkit-animation:drop 2s , fadeIn 2s;
-  animation:drop 2s , fade 2s;
-/*this places the element 200px up from the default x-y axis*/
-	z-index:6;
-}
-@keyframes drop{
- 1% { transform:translate(0px, 5px);}
 
- 100% { transform:translate(0px, 200px);}
- /*this moves the element 200px down; back to it's default position*/
-}
-@-webkit-keyframes drop{
- 1% { transform:translate(0px, 5px);}
-
- 100% { transform:translate(0px, 200px);}
-}
-@keyframes fade{
-  0%{opacity:0;}
-  50%{opacity:.5;}
-  100%{opacity:.7;}
- /*this fades in the title as its dropping down*/
-}
-@-webkit-keyframes fade{
-  0%{opacity:0;}
-  50%{opacity:.5;}
-  100%{opacity:.7;}
-}
 #portfolio{
 	background-color:#ffffff;
 }
@@ -129,6 +128,8 @@ top:0px;
 
 #form{
 	background-color:#ffffff;
+	margin: auto;
+	padding:10px;
 
 }
 #headings{
