@@ -164,61 +164,13 @@ background-color:#43f9b0;
 #landContact:hover{
 background-color:#93ffd4;
 }
-/* #navigation{
-	border:1px solid #9c9b9a;
-	background-color: #494847;
-	opacity: .5;
-  width:200px;
-  height:300px;
-  right:0px;
-	top:0px;
-  position:fixed;
-	padding: 0px;
-	z-index: 1;
-} */
 
-  /* END OF NAV STYLING */
+/* carousel  */
 
-/* #navigation:hover{
-	border:1px dashed #9c9b9a;
-	opacity: .7;
-}
-#Navlogo{
-	width:100px;
-	height:100px;
-	position:absolute;
-	top:5px;
-	left:50px;
-}
-#Navhome{
-	color:#F6A100;
-	position:absolute;
-  top:70px;
-  left:0px;
-}
-#Navportfolio{
-	color:#F6A100;
-	position:absolute;
-  top:120px;
-  left:0px;
-}
+.mySlides {display:none;}
 
-#Navcontact{
-	color:#F6A100;
-  position: absolute;
-  top:170px;
-	left:0px;
-}
-
-#Navabout{
-	color:#F6A100;
-  position:absolute;
-  top:220px;
-	left:0px;
-} */
-/* #Navhome,#Navabout,#Navcontact,#Navportfolio:hover{
-	color:#9c9b9a;
-} */
+.left, .right, .badge {cursor:pointer}
+.badge {height:13px;width:13px;padding:0}
 
 #video{
 	position:relative;
