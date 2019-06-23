@@ -9,7 +9,7 @@
 #image{/*landing page img*/
 	border:1px solid #9c9b9a;
 	padding:5px;
-position:absolute;
+position:relative;
 top:0px;
 text-align: center;
 z-index:-1;
@@ -248,7 +248,7 @@ h2 {
 	color:black;
 	font-weight: bold;
 	text-align: center;
-	padding:100px;
+	margin-top:100px;
 }
 h3{
 font-family: 'Julius Sans One', sans-serif;
