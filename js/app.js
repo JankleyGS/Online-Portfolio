@@ -43,35 +43,32 @@ function myFunction() {
 }
 
 
-//////////////////carousel dot slideIndex
 
 
-var slideIndex = 1;
-showDivs(slideIndex);
+carouselSlide.style.transform = 'translateX(' + (-size + counter) + 'px)';
 
-function plusDivs(n) {
-  showDivs(slideIndex += n);
+///btn listeners
+
+nextBtn.addEventListener('click', () => {
+  carouselSlide.style.transform = "transfrom 0.4s ease-in-out";
+  counter++;
+  carouselSlide.style.transform = 'translateX(' + (-size + counter) + 'px)';
+
+});
+
+prevtBtn.addEventListener('click', () => {
+  carouselSlide.style.transform = "transfrom 0.4s ease-in-out";
+  counter--;
+  carouselSlide.style.transform = 'translateX(' + (-size + counter) + 'px)';
+
+});
+
+carouselSlide.addEventListener('transitionend', ( =>{
+if (carouselImages [counter].id =='lastClone'){
+  carouselSlide.style.transition = 'none';
 }
+}));
 
-function currentDiv(n) {
-  showDivs(slideIndex = n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" white", "");
-  }
-  x[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " white";
-}
 
 
 // window.onscroll = function(){
