@@ -1,39 +1,36 @@
 /*COLORS: #494847-dark grey  #9c9b9a-grey #093DA4-blue #3D6CC9-lightBlue
 #D40056-pink #E8347D-lightPink #7BE000-lime #9DF136-lightLime #F6A100-yellow
-#FFBB39-lightYellow*/
+#FFBB39-lightYellow    mint- #43f9b0*/
 #body{
 	position:relative;
 	width:768px;
 	height:500px;
 }
-#image{/*landing page img*/
-	border:1px solid #9c9b9a;
-	padding:5px;
-position:relative;
-top:0px;
-text-align: center;
-z-index:-1;
+
+/*landing page img*/
+#image{
+
+	z-index:-1;
 }
 
 #greeting{
-  transform:translate(0px, 200px);
-  color:#000000;
+  transform:translate(0px, 90px);
   text-align: center;
   -webkit-animation:drop 2s , fadeIn 2s;
   animation:drop 2s , fade 2s;
 /*this places the element 200px up from the default x-y axis*/
-	z-index:6;
+	z-index:16;
 }
 @keyframes drop{
  1% { transform:translate(0px, 5px);}
 
- 100% { transform:translate(0px, 200px);}
+ 100% { transform:translate(0px, 90px);}
  /*this moves the element 200px down; back to it's default position*/
 }
 @-webkit-keyframes drop{
  1% { transform:translate(0px, 5px);}
 
- 100% { transform:translate(0px, 200px);}
+ 100% { transform:translate(0px, 90px);}
 }
 @keyframes fade{
   0%{opacity:0;}
@@ -205,7 +202,6 @@ h2 {
 h3{
 font-family: 'Julius Sans One', sans-serif;
 	color:#D40056;
-	padding:5px;
 	text-align: center;
 }
 h4{

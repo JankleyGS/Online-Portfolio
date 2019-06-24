@@ -7,19 +7,6 @@ var greeting = document.getElementById("greeting");
 var image = document.getElementById("image");
 var navigation = document.getElementById("navigation");
 
-///////////carousels////
-// var slideIndex = 0;
-// carousel();
-
-
-///////dot slide
-var slideIndex = 1;
-var i;
-var x = document.getElementsByClassName("mySlides");
-var dots = document.getElementsByClassName("demo");
-if (n > x.length) {slideIndex = 1}
-if (n < 1) {slideIndex = x.length}
-
 
 
 //greeting && image according to time of day
@@ -27,22 +14,22 @@ console.log(hourNow);
 
 if(hourNow>18){
 greeting.innerHTML = 'Good Evening!';
-greeting.style.color = '#ffffff';
+greeting.style.color = '#43f9b0';
 image.src = 'images/dogAndGod.png';
 }
 else if(hourNow>12){
   greeting.innerHTML = 'Good Afternoon!';
-  greeting.style.color = '#ffffff';
-  image.src = 'images/Old Memories.jpg';
+  greeting.style.color = '#43f9b0';
+  image.src = 'images/Curious jungle citizen.jpg';
 }
 else if(hourNow>0){
   greeting.innerHTML = 'Good Morning!';
-  greeting.style.color = '#ffffff';
+  greeting.style.color = '#43f9b0';
   image.src = 'images/eggato.png';
 }
 else {
   greeting.innerHTML = 'Welcome!';
-  greeting.style.color = '#ffffff';
+  greeting.style.color = '#43f9b0';
   image.src = 'images/T33N4G3R.jpg';
 }
 
@@ -55,19 +42,6 @@ function myFunction() {
     }
 }
 
-//////////////carousel function
-
-// function carousel() {
-//   var i;
-//   var x = document.getElementsByClassName("mySlides");
-//   for (i = 0; i < x.length; i++) {
-//     x[i].style.display = "none";
-//   }
-//   slideIndex++;
-//   if (slideIndex > x.length) {slideIndex = 1}
-//   x[slideIndex-1].style.display = "block";
-//   setTimeout(carousel, 2000); // Change image every 2 seconds
-// }
 
 //////////////////carousel dot slideIndex
 
@@ -98,6 +72,8 @@ function showDivs(n) {
   x[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " white";
 }
+
+
 // window.onscroll = function(){
 //
 //   var y = window.pageYOffset;
