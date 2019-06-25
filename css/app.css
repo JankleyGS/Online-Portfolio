@@ -6,11 +6,43 @@
 	width:768px;
 	height:500px;
 }
-
+ .div1{
+	 background-color: #ccc;
+ }
 /*landing page img*/
 #image{
-
 	z-index:-1;
+	position:fixed;
+	top:0;
+}
+
+#instaLanding{
+	padding:10px;
+	width:60px;
+	position:fixed;
+	bottom:0px;
+
+}
+#instaLanding:hover{
+	transform:scale(1.1);
+}
+@media screen and (max-width:640px){
+	#instaLanding{width:60px}
+}
+#insta{
+	padding:10px;
+	width:60px;
+}
+#insta:hover{
+	transform:scale(1.1);
+}
+@media screen and (max-width:640px){
+	#insta{width:60px}
+}
+#bottomLanding{
+	background-color:#333333;
+	height:500px;
+	z-index:-4;
 }
 
 #greeting{
@@ -44,13 +76,12 @@
   100%{opacity:.7;}
 }
 
-
 ul.topnav {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #93ffd4;
+    background-color:#43f9b0;
     opacity: .7;
     position: fixed;
     width: 100%;
@@ -133,7 +164,7 @@ top:0px;
 	padding:10px;
 }
 #landingPage{
-	background-color:#ffffff;
+	background-image: url(../images/dogAndGod.png);
 }
 
 #landHome{
@@ -177,7 +208,7 @@ background-color:#93ffd4;
 	overflow: hidden;
 	position: relative;
 	border:5px;
-	 
+
 
 }
 
@@ -231,9 +262,6 @@ h1 {
 
 h2 {
 	font-family: 'Josefin Sans', sans-serif;
-	font-weight: 700;
-	color:black;
-	font-weight: bold;
 	text-align: center;
 	margin-top:100px;
 }
@@ -253,7 +281,6 @@ p{
 	font-size: 21px;
 	color:#000000;
 	padding:10px;
-	/* width:450px; */
 	margin:0 auto;
 	position:relative;
 	opacity:.7;
@@ -262,5 +289,5 @@ a{
 	color:#000000;
 }
 a:hover{
-	color:#43f9b0;
+	color:#009182;
 }
