@@ -163,12 +163,21 @@ background-color:#93ffd4;
 }
 
 /* carousel  */
-
+*{
+	padding:0px;
+	margin:0px;
+	box-sizing: border-box;
+}
+#test{
+	background-color:#ccc;
+}
 .carousel-container{
 	width:60%;
 	margin: auto;
 	overflow: hidden;
 	position: relative;
+	border:5px;
+	 
 
 }
 
