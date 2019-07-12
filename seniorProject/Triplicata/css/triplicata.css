@@ -129,3 +129,10 @@ label{
     font-size: 12px;
   }
 }
+#footer{
+	padding:10px;
+	width:60px;
+}
+@media screen and (max-width:640px){
+	#footer{width:60px}
+}
