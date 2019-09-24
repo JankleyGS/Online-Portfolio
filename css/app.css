@@ -6,9 +6,7 @@
 	width:768px;
 	height:500px;
 }
- .div1{
-	 background-color: #ccc;
- }
+
 /*landing page img*/
 #image{
 	z-index:-1;
@@ -16,6 +14,20 @@
 	top:0;
 }
 
+#zineImg{
+	width:400px;
+	height:auto;
+}
+#zineImg2{
+	width:400px;
+	height:auto;
+}
+
+.zinePg{
+	width:400px;
+	height:auto;
+
+}
 #imgs{
 	top:70px;
 }
@@ -85,8 +97,8 @@ ul.topnav {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:#43f9b0;
-    opacity: .7;
+    background-color:#b5ebc3;
+    opacity: .95;
     position: fixed;
     width: 100%;
     z-index: 10;
@@ -101,7 +113,7 @@ ul.topnav li a {
     display: inline-block;
     color: #000000;
     text-align: center;
-    padding: 16px 16px;
+    padding: 16px 15px;
     text-decoration: none;
     transition: 0.3s;
     font-size: 16px;
@@ -109,7 +121,7 @@ ul.topnav li a {
 }
 
 /* Change background color of links on hover */
-ul.topnav li a:hover {background-color: #43f9b0 ;
+ul.topnav li a:hover {opacity:0 ;
 
 }
 
@@ -144,10 +156,20 @@ ul.topnav li.icon {display: none;}
   }
 }
 
-
-#portfolio{
-	background-color:#ffffff;
+.portfolioImg{
+	width:400px;
+	height: auto;
 }
+
+.title{
+	margin-top:70px;
+	text-align: center;
+}
+.gallery{
+	grid-gap: 10px;
+	padding:10px;
+}
+
 #about{
 	background-color:#ffffff;
 }
@@ -170,32 +192,12 @@ top:0px;
 #landingPage{
 	background-image: url(../images/dogAndGod.png);
 }
+.landImg {
+	height:400px;
+	width:auto;
+  margin: 4px 2px;
+}
 
-#landHome{
-background-color:#43f9b0;
-}
-#landHome:hover{
-	background-color:#93ffd4;
-	transition: color .3s;
-}
-#landPortfolio{
-background-color:#43f9b0;
-}
-#landPortfolio:hover{
-	background-color:#93ffd4;
-}
-#landAbout{
-	background-color:#43f9b0;
-}
-#landAbout:hover{
-	background-color:#93ffd4;
-}
-#landContact{
-	background-color:#43f9b0;
-}
-#landContact:hover{
-background-color:#93ffd4;
-}
 
 /* carousel  */
 *{
@@ -203,9 +205,7 @@ background-color:#93ffd4;
 	margin:0px;
 	box-sizing: border-box;
 }
-#test{
-	background-color:#ccc;
-}
+
 .carousel-container{
 	width:60%;
 	margin: auto;
@@ -280,10 +280,14 @@ h4{
 	padding:5px;
 
 }
+#footer{
+	background-color:#787878;
+	color:#ffffff;
+}
 p{
 	font-family: 'Forum', cursive;
-	font-size: 21px;
-	color:#000000;
+	font-size: 1.2rem;
+	text-align: center;
 	padding:10px;
 	margin:0 auto;
 	position:relative;
@@ -291,7 +295,25 @@ p{
 }
 a{
 	color:#000000;
+	transition: .5s;
 }
 a:hover{
-	color:#009182;
+	color:#4b535e;
+	letter-spacing: 3px;
+}
+
+
+/* css landing test */
+body, html{
+	height:100%;
+}
+
+.parallax{
+	background-image: url('../images/T33N4G3R 3000.jpg');
+	height:80%;
+
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }

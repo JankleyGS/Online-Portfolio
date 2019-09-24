@@ -2,6 +2,10 @@
 
 const carouselSlide = document.querySelector('.carousel-slide');
 const carouselImages = document.querySelector('.carousel-slide img');
+var year = new Date().getFullYear();
+var date = '${year}';
+
+document.getElementById('currentYr').innerHTML = date;
 
 /////////buttons
 const prevBtn = document.querySelector('#prevBtn');
