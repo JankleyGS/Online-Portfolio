@@ -164,6 +164,7 @@ ul.topnav li.icon {display: none;}
 .title{
 	margin-top:70px;
 	text-align: center;
+
 }
 .gallery{
 	grid-gap: 10px;
@@ -273,6 +274,7 @@ h3{
 font-family: 'Julius Sans One', sans-serif;
 	color:#D40056;
 	text-align: center;
+	padding:20px;
 }
 h4{
 	font-family: 'Forum', cursive;
