@@ -14,24 +14,24 @@ console.log(hourNow);
 
 if(hourNow>18){
 greeting.innerHTML = 'Good Evening!';
-greeting.style.color = '#43f9b0';
+greeting.style.color = '#ffffff';
 image.src = 'images/dogAndGod.png';
 
 }
 else if(hourNow>12){
   greeting.innerHTML = 'Good Afternoon!';
-  greeting.style.color = '#43f9b0';
+  greeting.style.color = '#ffffff';
   image.src = 'images/ShreddBot_SideCity.png';
 }
 else if(hourNow>0){
   greeting.innerHTML = 'Good Morning!';
-  greeting.style.color = '#43f9b0';
+  greeting.style.color = '#ffffff';
   image.src = 'images/seraCafe.png';
 }
 else {
   greeting.innerHTML = 'Welcome!';
-  greeting.style.color = '#43f9b0';
-  image.src = 'images/T33N4G3R 3000.jpg';
+  greeting.style.color = '#ffffff';
+  image.src = 'images/teenVector.jpg';
 }
 
 function myFunction() {

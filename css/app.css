@@ -62,23 +62,23 @@
 }
 
 #greeting{
-  transform:translate(0px, 90px);
-  text-align: center;
+  transform:translate(0px, 30px);
+  text-align: left;
   -webkit-animation:drop 2s , fadeIn 2s;
   animation:drop 2s , fade 2s;
 /*this places the element 200px up from the default x-y axis*/
 	z-index:16;
 }
 @keyframes drop{
- 1% { transform:translate(0px, 5px);}
+ 1% { transform:translate(0px, 0px);}
 
- 100% { transform:translate(0px, 90px);}
+ 100% { transform:translate(0px, 30px);}
  /*this moves the element 200px down; back to it's default position*/
 }
 @-webkit-keyframes drop{
- 1% { transform:translate(0px, 5px);}
+ 1% { transform:translate(0px, 0px);}
 
- 100% { transform:translate(0px, 90px);}
+ 100% { transform:translate(0px, 30px);}
 }
 @keyframes fade{
   0%{opacity:0;}
@@ -98,7 +98,7 @@ ul.topnav {
     padding: 0;
     overflow: hidden;
     background-color:#b5ebc3;
-    opacity: .95;
+    
     position: fixed;
     width: 100%;
     z-index: 10;
@@ -311,11 +311,11 @@ body, html{
 }
 
 .parallax{
-	background-image: url('../images/T33N4G3R 3000.jpg');
-	height:80%;
-
+	background-image: url('../images/teenVector.jpg');
+	height:87%;
 	background-attachment: fixed;
-	background-position: center;
+	background-position: 0px 35px;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size:cover;
+
 }
